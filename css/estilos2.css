@@ -1,0 +1,91 @@
+
+body {
+    margin: 0; 
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pagina {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 60px;
+        
+}
+
+.pagina-ancho {
+    max-width: 1000px;
+    background-color: #fff;
+}
+  
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: #59578E;
+    color: rgba(255, 255, 255, 0.9);
+    height: 220px;
+}
+
+.picture {
+    width: 220px;
+  }
+
+.nombre {
+    font-size: 2rem;
+    letter-spacing: 0.175rem;
+    
+}
+
+.profesion {
+    font-size: 1.25rem;
+    letter-spacing: 0.175rem;
+}
+
+.pad1 {
+    padding-left: 20px;
+}
+
+.pad2 {
+    margin-top: 20px;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+        
+}
+
+.me-2 {
+    margin-right: 0.5rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity));
+ }
+
+.iconos .fa-container {
+    font-size: 1rem;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 0.125rem;
+    background: white;
+    color: #59578E;
+  }
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+.text-center {
+    text-align: center !important;
+   
+  }

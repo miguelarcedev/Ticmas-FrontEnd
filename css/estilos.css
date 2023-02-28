@@ -38,7 +38,13 @@ body {
 .contenido-header div {
   width: 400px;
   height: 100px;
+  margin-left: 0rem;
 }
+
+.contenido-header .margenes {
+  margin-left: 0rem;
+}
+
 
 .header .picture {
   width: 220px;
@@ -47,16 +53,17 @@ body {
 .header .nombre {
   font-size: 2rem;
   letter-spacing: 0.175rem;
+  font-weight: 900;
   text-transform: uppercase;
-  margin-top: 0 !important;
-  margin-bottom: 0.25rem !important;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
   
   
 }
 
 .header .profesion {
   font-size: 1.25rem;
-
+  margin-bottom: 1rem
 }
 
 .header a {
@@ -95,3 +102,6 @@ body {
 }
 
 
+.me-2 {
+  margin-right: 0.5rem !important;
+}
