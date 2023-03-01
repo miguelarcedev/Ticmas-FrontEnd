@@ -230,3 +230,26 @@ p {
     font-size: 0.875rem;
   }
 
+  @media (max-width: 767.98px) {
+    
+    .picture {
+      width: 120px;
+      border-radius: 4px;
+    }
+
+    .nombre {
+        margin-top: auto;
+        font-size: 1.25rem;
+        letter-spacing: 0.175rem;
+        
+    }
+    
+    .profesion {
+        font-size: 0.75rem;
+        letter-spacing: 0.175rem;
+    }
+    
+    
+
+  }
+  
