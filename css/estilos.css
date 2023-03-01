@@ -140,6 +140,7 @@ p {
     padding-bottom: 3rem !important;
 }
 
+
 /*******************************************************************/
 
 
@@ -167,13 +168,13 @@ p {
 
 
 
-.resume-section-title {
+.section-title {
     font-size: 1.25rem;
     position: relative;
     color: #59578E;
   }
 
-.resume-section-title:after {
+.section-title:after {
     content: "";
     position: absolute;
     left: 0;
@@ -183,54 +184,48 @@ p {
     background: #8d9aad;
 }
 
-.resume-section-content {
+.section-content {
     color: #58677c;
 }
 
-.resume-position-title {
+.position-title {
     font-size: 1rem;
     color: #434E5E;
 }
-.resume-position-time {
+.position-time {
     font-size: 0.875rem;
     color: #aab4c3;
 }
 
-.resume-company-name {
+.company-name {
     color: #58677c;
     font-size: 0.875rem;
     font-weight: 500;
 }
 
-.resume-degree {
+.degree {
     color: #434E5E;
-  }
+}
   
-  .resume-degree-org {
+.degree-org {
     font-size: 0.875rem;
-  }
+}
   
-  .resume-degree-time {
+.degree-time {
     color: #aab4c3;
     font-size: 0.875rem;
-  }
+}
   
-  .resume-award-icon {
-    left: 0;
-    top: 4px;
-    color: #aab4c3;
-  }
-  
-  .resume-award-name {
+.award-name {
     font-weight: bold;
     color: #434E5E;
-  }
+}
   
-  .resume-award-desc {
+.award-desc {
     font-size: 0.875rem;
-  }
+}
 
-  @media (max-width: 767.98px) {
+@media (max-width: 767.98px) {
     
     .picture {
       width: 120px;
@@ -251,5 +246,5 @@ p {
     
     
 
-  }
+}
   
