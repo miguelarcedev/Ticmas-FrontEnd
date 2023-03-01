@@ -18,6 +18,12 @@ body {
     max-width: 1000px;
     background-color: #fff;
 }
+.div-edu {
+    width: 200px;
+}
+.div-conocimiento {
+    width: 200px;
+}
   
 .flex-container {
     display: flex;
@@ -32,13 +38,14 @@ body {
 
 .flex-conocimientos {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 20px;
-    
-    color: rgba(255, 255, 255, 0.9);
-    height: auto;
-    flex-basis: 100px;
+}
+
+.flex-educacion {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .picture {
@@ -107,7 +114,13 @@ p {
     padding-left: 60px;
     padding-right: 60px;
 }
+.pad-conocimientos {
+    padding-right: 60px;
+}
 
+.pad-educacion {
+    padding-right: 60px;
+}
 .p-parrafo {
     padding: 20px;
 }
@@ -152,13 +165,7 @@ p {
     color: #59578E;
 }
 
-@media (max-width=300) {
-    
-    .flex-container div {
-        flex-basis: 100%;
-        text-align: center;
-    }
-}
+
 
 .resume-section-title {
     font-size: 1.25rem;

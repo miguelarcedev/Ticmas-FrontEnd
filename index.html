@@ -36,11 +36,11 @@
                 </div>
                 <div class="pad2">
                     <ul class="iconos list-unstyled">
-                        <li class="mb-3"><a class="text-white" href="#experiencia"><span class="fa-container text-center me-2"><i class="fa-solid fa-briefcase"></i></span>Experiencia laboral</a>
+                        <li class="mb-3"><a id="item1" onmouseover="mouseOver(id)" onmouseout="mouseOut()" class="text-white" href="#experiencia"><span class="fa-container text-center me-2"><i class="fa-solid fa-briefcase"></i></span>Experiencia laboral</a>
                         </li>
-                        <li class="mb-3"><a class="text-white" href="#conocimiento"><span class="fa-container text-center me-2"><i class="fa-solid fa-certificate"></i></span>Conocimientos</a></li>
-                        <li class="mb-3"><a class="text-white" href="#educacion"><span class="fa-container text-center me-2"><i class="fa-solid fa-landmark"></i></span>Educación</a></li>
-                        <li>			<a class="text-white" href="#cursos"><span class="fa-container text-center me-2"><i class="fa-solid fa-book"></i></span>Cursos</a></li>
+                        <li class="mb-3"><a id="item2" onmouseover="mouseOver()" onmouseout="mouseOut()" class="text-white" href="#conocimiento"><span class="fa-container text-center me-2"><i class="fa-solid fa-certificate"></i></span>Conocimientos</a></li>
+                        <li class="mb-3"><a id="item3" onmouseover="mouseOver()" onmouseout="mouseOut()" class="text-white" href="#educacion"><span class="fa-container text-center me-2"><i class="fa-solid fa-landmark"></i></span>Educación</a></li>
+                        <li>			<a id="item4" onmouseover="mouseOver()" onmouseout="mouseOut()" class="text-white" href="#intereses"><span class="fa-container text-center me-2"><i class="fa-solid fa-book"></i></span>Intereses</a></li>
                     </ul>
                 </div>
             </header>
@@ -162,8 +162,7 @@
 									    </div>
 
 								    </article>
-								    
-								    
+   
 							    </div>
 							      
 						    </div>
@@ -173,129 +172,96 @@
 					    <section class="mb-5">
 						    <h2 class="resume-section-title text-uppercase pb-3 mb-3" id="conocimiento">conocimientos</h2>
 						    <div class="resume-section-content flex-conocimientos">
-						        <div>
+						        <div class="div-conocimiento pad-conocimientos">
 							        <h4>Frontend</h4>
-							        <ul class="list-unstyled mb-4">
-								        <li class="mb-2">
-								            <div>Angular</div>    
-								        </li>
-								        <li class="mb-2">
-								            <div>React</div>    
-								        </li>
-								        <li class="mb-2">
-								            <div>JavaScript</div>									        
-								        </li>								        
-								        <li class="mb-2">
-								            <div>Node.js</div>									        
-								        </li>
-								        <li class="mb-2">
-								            <div>HTML/CSS/SASS/LESS</div>									        
-								        </li>
-							        </ul>
+									<ul class="list-unstyled">
+										<li class="mb-2"><span>Angular</span></li>
+										<li class="mb-2"><span>React</span></li>
+										<li class="mb-2"><span>JavaScript</span></li>
+										<li class="mb-2"><span>Node.js</span></li>
+										<li><span>HTML/CSS/SASS/LESS</span></li>
+									</ul>
+							        
 						        </div>
 						        
-						        <div>
+						        <div class="div-conocimiento pad-conocimientos">
 						            <h4>Backend</h4>
-							        <ul class="list-unstyled">
-								        <li class="mb-2">
-								            <div>Python/Django</div>									        
-								        </li>
-								        <li class="mb-2">
-								            <div>Ruby/Rails</div>									        
-								        </li>
-								        <li class="mb-2">
-								            <div>PHP</div>									        
-								        </li>
-								        <li class="mb-2">
-								            <div>WordPress/Shopify</div>
-									        
-								        </li>
-							        </ul>
+									<ul class="list-unstyled">
+										<li class="mb-2"><span>Python/Django</span></li>
+										<li class="mb-2"><span>Ruby/Rails</span></li>
+										<li class="mb-2"><span>PHP</span></li>
+										<li><span>WordPress/Shopify</span></li>
+									</ul>
+							        
 						        </div>
 						        
-						        <div>
+						        <div class="div-conocimiento pad-conocimientos">
 						            <h4>Otros</h4>
-						            <ul class="list-unstyled">
-										<li class="mb-2">
-								            <div>DevOps</div>
-									        
-								        </li>
-								        <li class="mb-2">
-								            <div>Code Review</div>
-									        
-								        </li>
-								        <li class="mb-2">
-								            <div>Git</div>
-									        
-								        </li>
-								        <li class="mb-2">
-								            <div>Unit Testing</div>
-									        
-								        </li>
-										<li class="mb-2">
-								            <div>Wireframing</div>
-									        
-								        </li>
-								        <li class="mb-2">
-								            <div>Sketch</div>
-									        
-								        </li>
-								        <li class="mb-2">
-								            <div>Balsamiq</div>
-									        
-								        </li>
-							            
-						            </ul>
+									<ul class="list-unstyled">
+										<li class="mb-2"><span>DevOps</span></li>
+										<li class="mb-2"><span>Code Review</span></li>
+										<li class="mb-2"><span>Git</span></li>
+										<li class="mb-2"><span>Unit Testing</span></li>
+										<li class="mb-2"><span>Wireframing</span></li>
+										<li class="mb-2"><span>Sketch</span></li>
+										<li><span>Balsamiq</span></li>
+									</ul>
 						        </div>
 						    </div>
 					    </section>
-					    <section class="mb-5">
+
+						<section class="mb-5">
 						    <h2 class="resume-section-title text-uppercase pb-3 mb-3" id="educacion">Educación</h2>
-						    <div class="resume-section-content flex-conocimientos">
-							    <ul class="list-unstyled">
-								    <li class="mb-2">
-								        <div class="resume-degree">MSc in Computer Science</div>
-								        <div class="resume-degree-org">University College London</div>
-								        <div class="resume-degree-time">2010 - 2011</div>
-								    </li>
-								    <li>
-								        <div class="resume-degree">BSc Maths and Physics</div>
-								        <div class="resume-degree-org">Imperial College London</div>
-								        <div class="resume-degree-time">2007 - 2010</div>
-								    </li>
-							    </ul>
+						    <div class="resume-section-content flex-educacion">
+						        <div class="pad-educacion">
+							        <h4>Educación superior</h4>
+									<ul class="list-unstyled">
+										<li class="mb-2">
+											<div class="resume-degree">MSc in Computer Science</div>
+											<div class="resume-degree-org">University College London</div>
+											<div class="resume-degree-time">2010 - 2011</div>
+										</li>
+										<li>
+											<div class="resume-degree">BSc Maths and Physics</div>
+											<div class="resume-degree-org">Imperial College London</div>
+											<div class="resume-degree-time">2007 - 2010</div>
+										</li>
+									</ul>
+							        
+						        </div>
+						        
+						        <div class="pad-educacion div-edu">
+						            <h4>Cursos</h4>
+									<ul class="list-unstyled">
+										<li class="mb-2">
+											<i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+											<div class="resume-award-name">Award Name Lorem</div>
+											<div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</div>
+										</li>
+										<li class="mb-0 ps-4">
+											<i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+											<div class="resume-award-name">Award Name Ipsum</div>
+											<div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque.</div>
+										</li>
+									</ul>
+							        
+						        </div>
+						        
+						        <div class="pad-educacion">
+						            <h4>Idiomas</h4>
+									<ul class="list-unstyled">
+										<li class="mb-2"><span>Inglés</span> <small>(Native)</small></li>
+										<li class="mb-2"><span>French</span> <small>(Professional)</small></li>
+										<li><span>Español</span> <small>(Professional)</small></li>
+									</ul>
+						        </div>
 						    </div>
-					    </section><!--//education-section-->
+					    </section>
+
+					
 					    <section class="mb-5">
-						    <h2 class="resume-section-title text-uppercase pb-3 mb-3" id="cursos">Cursos</h2>
-						    <div class="resume-section-content flex-conocimientos">
-							    <ul class="list-unstyled">
-								    <li class="mb-2">
-								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-								        <div class="resume-award-name">Award Name Lorem</div>
-								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</div>
-								    </li>
-								    <li class="mb-0 ps-4">
-								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-								        <div class="resume-award-name">Award Name Ipsum</div>
-								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque.</div>
-								    </li>
-							    </ul>
-						    </div>
-					    </section><!--//interests-section-->
-					    <section class="mb-5">
-						    <h2 class="resume-section-title text-uppercase  pb-3 mb-3">Idiomas</h2>
-						    <div class="resume-section-content flex-conocimientos">
-							    <ul class="list-unstyled">
-								    <li class="mb-2"><span>Inglés</span> <small>(Native)</small></li>
-								    <li class="mb-2"><span>French</span> <small>(Professional)</small></li>
-								    <li><span>Español</span> <small>(Professional)</small></li>
-							    </ul>
-						    </div>
-					    </section><!--//language-section-->
-					    <section class="mb-5">
-						    <h2 class="resume-section-title text-uppercase pb-3 mb-3">Intereses</h2>
-						    <div class="resume-section-content flex-conocimientos">
+						    <h2 class="resume-section-title text-uppercase pb-3 mb-3" id="intereses">Intereses</h2>
+						    <div class="resume-section-content">
 							    <ul class="list-unstyled">
 								    <li class="mb-1">Climbing</li>
 								    <li class="mb-1">Snowboarding</li>
@@ -316,6 +282,8 @@
         
 
     </article>
+
+	<script src="js/menu.js"></script>
 
 	
     
